@@ -5,7 +5,7 @@
 with Rollup (same toolchain as other Lit + Rollup HA cards). Distributed via HACS (custom repository) and GitHub releases; MIT.
 
 ## Commands
-`npm run build` → `dist/tabbed-section-card.js` · `npm run lint` (`--max-warnings 0`) · `npm start` dev server :5000.
+`npm run build` → `dist/tabbed-section-card.js` (**committed** so HACS finds it on `main`; rebuild and commit it before every release) · `npm run lint` (`--max-warnings 0`) · `npm start` dev server :5000.
 No test suite; verify in a real HA.
 
 ## Source
