@@ -1,0 +1,37 @@
+type: custom:tabbed-section-card
+default_tab: home
+idle_return: 60
+color: grey
+tabs:
+  - name: Home
+    id: home
+    icon: mdi:home
+    cards:
+      - type: tile
+        entity: light.living_room
+        grid_options: { columns: 6, rows: 1 }
+      - type: tile
+        entity: lock.front_door
+        grid_options: { columns: 6, rows: 1 }
+      - type: tile
+        entity: vacuum.robot
+        name: Vacuum status
+        grid_options: { columns: 12, rows: 1 }
+        tap_action:
+          action: fire-dom-event
+          tabbed_section_card:
+            tab: vacuum
+  - name: Vacuum
+    id: vacuum
+    icon: mdi:robot-vacuum
+    cards:
+      - type: heading
+        heading: Controls
+        icon: mdi:robot-vacuum
+        grid_options: { columns: 12 }
+      - type: tile
+        entity: vacuum.robot
+        features:
+          - type: vacuum-commands
+            commands: [start_pause, return_home]
+        grid_options: { columns: 12, rows: 2 }
