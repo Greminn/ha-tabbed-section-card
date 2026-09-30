@@ -4,6 +4,8 @@ A Home Assistant Lovelace card with a tab bar where **every tab is a full sectio
 12-column grid, `grid_options` sizing and per-card `visibility` you get in a normal section, and the same
 card picker / Config / Visibility / Layout editor when you add cards.
 
+![Tabbed Section Card: a tab bar above a normal sections grid](assets/screenshot.png)
+
 Requires a **sections** view. Developed and tested on Home Assistant 2026.9.
 
 ## Features
