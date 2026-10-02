@@ -1,6 +1,6 @@
 {
   "name": "tabbed-section-card",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tabbed Section Card — a Home Assistant Lovelace card where every tab is a full sections-view section (12-column grid, grid_options, per-card visibility)",
   "keywords": [
     "home-assistant",

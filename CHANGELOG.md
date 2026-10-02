@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Add README screenshot (HACS image check).
+- Rebuild `dist/`; no functional changes.
+
 ## 0.1.0
 
 - First release.

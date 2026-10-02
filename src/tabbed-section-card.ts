@@ -7,7 +7,7 @@ import { cssColor, findTab, tabId, tabLabel } from './tabs'
 import { HomeAssistant, TabbedSectionCardConfig, TabConfig } from './types'
 import './editor'
 
-const CARD_VERSION = '0.1.0'
+const CARD_VERSION = '0.1.1'
 
 console.info(
   `%c TABBED-SECTION-CARD %c v${CARD_VERSION} `,
